@@ -9,6 +9,6 @@
     </view>
   </view>
   <view class="tell">
-    <button bindtap="freeTell">联系我们</button>
+    <button bindtap="freeTell" size="mini">联系我们</button>
   </view>
 </view>

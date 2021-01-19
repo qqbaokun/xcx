@@ -1,5 +1,3 @@
-// index.js
-// 获取应用实例
 const app = getApp()
 
 Page({
@@ -12,6 +10,9 @@ Page({
   freeTell: function () {
     wx.makePhoneCall({
       phoneNumber: '13812345678',
+      fail: function(){
+
+      }
     })
 
   }
